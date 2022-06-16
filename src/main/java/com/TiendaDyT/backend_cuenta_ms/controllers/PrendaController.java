@@ -97,6 +97,15 @@ public class PrendaController {
         return prendas;
     }
 
+    @GetMapping("/pedidosPrendas/get/{id}")
+    Prenda getPrenda(@PathVariable String id){
+        Prenda prenda= this.prendaRepository.findById(id).orElse(null);
+        if(prenda == null){
+            throw new PedidoNoEncontradoException("El código del pedido no existe en la base de datos.");
+        }
+        return prenda;
+    }
+
     @PutMapping("/pedidosPrendas/actualizar/{id}")
     Prenda updatePrendas(@PathVariable String id, @RequestBody Prenda prendaUpdate){
         Prenda prenda = this.prendaRepository.findById(id).orElse(null);
