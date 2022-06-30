@@ -73,6 +73,8 @@ para ejecutar el proyecto en local:
    ```
     mvnw/ spring-boot:run
    ```
+- Es posible comprobar su funcionamiento en local ingresando a la url asignada http://localhost:8080.
+
 El proyecto se encuentra desplegado en la plataforma heroku:
 
 https://tienda-tyd-cuenta-ms.herokuapp.com/
