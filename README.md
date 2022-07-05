@@ -93,4 +93,4 @@ la parte sombreada hace referencia al despliegue de componentes de la parte back
 
 La ejecución de los casos de prueba se hizo por medio de la aplicacion postman:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/666c2542f2ecac394cb2?action=collection%2Fimport)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/17863004-f196d2dd-244f-4f03-8832-8c7078cdef69?action=collection%2Ffork&collection-url=entityId%3D17863004-f196d2dd-244f-4f03-8832-8c7078cdef69%26entityType%3Dcollection%26workspaceId%3D7bcc2d18-e9d7-4ab3-8b52-f701bc8801d1)
