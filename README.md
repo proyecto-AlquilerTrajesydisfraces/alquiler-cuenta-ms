@@ -71,7 +71,7 @@ para ejecutar el proyecto en local:
 3. se debe ingresar el siguiente comando para ejecutar el proyecto en local(computador personal o servidor):
 
    ```
-    mvnw/ spring-boot:run
+    ./mvnw spring-boot:run
    ```
 - Es posible comprobar su funcionamiento en local ingresando a la url asignada http://localhost:8080.
 
